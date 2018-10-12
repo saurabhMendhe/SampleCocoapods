@@ -1,0 +1,6 @@
+framework module SampleCocoapods {
+  umbrella header "SampleCocoapods.h"
+
+  export *
+  module * { export * }
+}

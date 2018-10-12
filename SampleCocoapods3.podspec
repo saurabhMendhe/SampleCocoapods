@@ -33,8 +33,8 @@ Pod::Spec.new do |s|
     s.license           = "MIT"
 
     s.platform          = :ios
-    s.source            = { :http => 'https://github.com/Mastercard/masterpass-qr-core-sdk-ios/releases/download/2.0.6/masterpassqrcoresdk-framework-ios.zip'  }
+    s.source            = { :http => ''  }
 
     s.ios.deployment_target = '8.0'
-    s.ios.vendored_frameworks = 'Frameworks/MasterpassQRCoreSDK.framework'
+    s.ios.vendored_frameworks = ''
 end 
